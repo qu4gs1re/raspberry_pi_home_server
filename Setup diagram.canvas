@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c2025661f82deffc","type":"file","file":"img/rpi5.jpg","x":331,"y":40,"width":385,"height":400},
+		{"id":"cb483758a65c048d","type":"file","file":"img/hdd.jpg","x":377,"y":-560,"width":293,"height":399},
+		{"id":"f52038549dd5688a","type":"file","file":"img/ups.jpg","x":353,"y":880,"width":342,"height":482},
+		{"id":"9891c945d9c9e509","type":"file","file":"img/power_outlet.jpeg","x":324,"y":1560,"width":400,"height":210},
+		{"id":"cfe248a644986e37","type":"file","file":"img/tv.jpg","x":-800,"y":-60,"width":863,"height":600},
+		{"id":"8232458733543702","type":"file","file":"img/router.jpg","x":1200,"y":-88,"width":391,"height":657}
+	],
+	"edges":[
+		{"id":"59829e757f2425a7","fromNode":"c2025661f82deffc","fromSide":"bottom","toNode":"f52038549dd5688a","toSide":"top","toEnd":"none","label":"USB connection + Surge protection & battery backup"},
+		{"id":"92020787e58935ee","fromNode":"c2025661f82deffc","fromSide":"right","toNode":"8232458733543702","toSide":"left","toEnd":"none","label":"Ethernet connection"},
+		{"id":"e9c39bc2ca2991cc","fromNode":"8232458733543702","fromSide":"bottom","toNode":"f52038549dd5688a","toSide":"right","toEnd":"none","label":"Surge protection & battery backup"},
+		{"id":"8949e8bacaa17928","fromNode":"f52038549dd5688a","fromSide":"bottom","toNode":"9891c945d9c9e509","toSide":"top","toEnd":"none"},
+		{"id":"63a4239d195bdf56","fromNode":"cfe248a644986e37","fromSide":"right","toNode":"c2025661f82deffc","toSide":"left","toEnd":"none","label":"HDMI"},
+		{"id":"8d1cdca6fac0aa41","fromNode":"cb483758a65c048d","fromSide":"bottom","toNode":"c2025661f82deffc","toSide":"top","toEnd":"none","label":"USB 3.0"},
+		{"id":"29c272a97927c38a","fromNode":"f52038549dd5688a","fromSide":"left","toNode":"cfe248a644986e37","toSide":"bottom","toEnd":"none","label":"Surge protection"}
+	]
+}
