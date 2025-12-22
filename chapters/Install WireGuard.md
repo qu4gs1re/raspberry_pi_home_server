@@ -97,5 +97,5 @@ AllowedIPs = 10.0.0.3/32
 - You should now be able to connect!
 
 ## Troubleshooting tips
-- If, for some reason, you can't connect and the newly added peer gets deleted from `wg0.conf` when you restart WireGuard or reboot, try using the following command and then connect once: `sudo wg set wg0 peer <client_public_key> preshared-key <client_preshared_key> allowed-ips 10.0.0.X/32`
+- If, for some reason, you can't connect and the newly added peer gets deleted from `wg0.conf` when you restart WireGuard or reboot, try using the following command and then connect once: `sudo wg set wg0 peer <client_public_key> preshared-key <client_preshared_key_filename> allowed-ips 10.0.0.X/32`
 - Also make sure that your dynamic DNS is correctly associated to your public IP
